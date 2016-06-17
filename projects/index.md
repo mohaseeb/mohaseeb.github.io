@@ -7,18 +7,29 @@ title: Projects
 
 ## Deep learning projects
 
-### Building a video search engine exploiting the video content. <span class="tags">deep learning</span> <span class="tags">indexing</span>
-
 ### Predicting human face attributes from images with deep learning. <span class="tags">deep learning</span> <span class="tags">image recognition</span> <span class="tags">transfer learning</span>
+![attributes_prediction](images/attributes.png)
 
 ### Phoneme prediction using Deep convolutional neural networks. <span class="tags">deep learning</span> <span class="tags">speech recognition</span>
+![phoneme_ao](images/phoneme_ao.png) 
+
+![phoneme_sh](images/phoneme_sh.png)
+
 ---
 
 ## Other machine learning projects
 
 ### Self learning Pac-Man player, using reinforcement learning. <span class="tags">reinforcement learning</span>
+[![self learning player](images/pacman.png)](https://www.youtube.com/watch?v=NV9xViSfoBA "Click to play the video")
 
 ### Detecting hand gestures on existing unmodified smartphones using Wi-Fi signal strength. <span class="tags">time series analysis</span> <span class="tags">realtime</span>
+---
+
+## Search
+
+### Building a video search engine exploiting the video content. <span class="tags">indexing</span> <span class="tags">deep learning</span>
+![video_search](images/video_search.png)
+
 ---
 
 ## At work
