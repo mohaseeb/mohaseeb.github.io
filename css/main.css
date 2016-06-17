@@ -34,11 +34,40 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
+}
+
+span.tags {
+    color:black;
+    background-color:aqua;
+    -moz-border-radius: 3px;
+    border-radius: 3px; /* standards-compliant: (IE) */
+    font-size: 0.9em;
+}
+
+.post-container {
+    margin: 20px 20px 0 0;
+    overflow: auto
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: inline;
+    width: 300px;
+    height: 400px;
+    margin: 0 0 20px 0;
+}
+.post-content {
+    margin-left: 320px
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%
 }
