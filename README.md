@@ -1,5 +1,6 @@
 # Mohamed Haseeb
-My personal website; a fork of https://github.com/codinfox/codinfox-lanyon.
+My personal website https://mohaseeb.github.io
+This is a fork of https://github.com/codinfox/codinfox-lanyon.
 
 ## License
 
