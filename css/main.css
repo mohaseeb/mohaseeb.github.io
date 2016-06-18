@@ -71,3 +71,23 @@ span.tags {
     font-weight: bold;
     font-size: 200%
 }
+
+.proj-content {
+    color:white;
+    background-color:black;
+    -moz-border-radius: 6px;
+    border-radius: 6px /* standards-compliant: (IE) */
+}
+
+.proj-img {
+    display: block;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px
+}
+
+.proj-text-content {
+    font-size: 0.8em;
+    color:white
+}
