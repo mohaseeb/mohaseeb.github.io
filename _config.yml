@@ -1,3 +1,61 @@
-name: Mohamed Haseeb
+# Site Info
+title: Mohamed Haseeb
+tagline: Some of what I did and currently doing
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+#baseurl: "/"
+url: https://mohaseeb.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Mohamed Haseeb
+  description: A developer and a system engineer, intersted in machine learning and AI techniques.
+  gravatar: bf38fd50b8b475e2f2800c1fd6a0defb # md5 hash of your email address
+  contact:
+    linkedin:  https://www.linkedin.com/profile/public-profile-settings
+    github:    https://github.com/mohaseeb
+    # facebook:  <hide>
+    email:  mailto:mohamedaziz52@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  CV:
+    - '/CV/'
+#  About:
+#    - '/about/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+    image: /public/img/profile.jpg
+#  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-79426178-1' # leave blank if you don't want google analytics
+disqus_short_name: 'haseeb' # leave blank if you don't want disqus
+
