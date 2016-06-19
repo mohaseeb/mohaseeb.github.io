@@ -10,9 +10,8 @@ title: Home
 
 ### Welcome, I'm Mohamed Haseeb!
 
-Experienced software and systems engineer (8+ years), with patience to solve problems and passion to explore
-and learn new things. I program in several languages and have experience on several machine learning and AI
-techniques; [checkout my blog]() . I am currently interested in building solutions that employ machine learning and AI
+I am an experienced software and systems engineer, currently working at Ericsson in Sweden. I've patience to solve problems and passion to explore
+and learn new things. I program in several languages and have experience on several machine learning techniques ([checkout my blog](blog/)). I am currently interested in building solutions that employ machine learning and AI
 techniques.
 
 My bachelor was in electrical engineering, and I am currently concluding a master in machine learning at KTH (Royal Institute of Technology) of Sweden.
