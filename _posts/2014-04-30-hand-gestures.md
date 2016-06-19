@@ -5,4 +5,7 @@ date: 2016-04-1
 category: machine learning
 tags: [time series, pattern recognition, Android]
 ---
-<p class="proj-text-content">Employing time series analysis and classification techniques on Wi-Fi RSSI smartphone measurements to predict hand gesture around the smartphone.</p>
+Employing time series analysis and classification techniques on Wi-Fi RSSI smartphone measurements to predict hand gesture around the smartphone.
+
+To be continued ...
+
