@@ -6,6 +6,6 @@ category: deep learning
 tags: [speech recognition, Caffe]
 ---
 ![phoneme_ao]({{ site.baseurl }}/public/posts_imgs/phonemes.png)
-Trained a deep convolutional neural network to predict human speech phonemes given the phoneme audio.
+(Done together with other team member) Trained a deep convolutional neural network to predict human speech phonemes given the phoneme audio.
 
 To be continued ...
