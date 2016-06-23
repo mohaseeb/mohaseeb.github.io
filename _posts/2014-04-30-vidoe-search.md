@@ -6,6 +6,6 @@ category: search
 tag: [elasticsearch, kibana]
 ---
 ![video_search]({{ site.baseurl }}/public/posts_imgs/video_search.png)
-Video content based search engine built on top of Elsticsearch and Kibana.
+(Built together with other members) Video content based search engine built on top of Elsticsearch and Kibana.
 
 To be continued ...
