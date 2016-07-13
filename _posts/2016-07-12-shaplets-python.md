@@ -7,7 +7,7 @@ tags: [time series, pattern recognition]
 ---
 ![attributes_prediction]({{ site.baseurl }}/public/posts_imgs/lts.png)
 
-[Jump to usage](#usage) if you have patience to hear my life story :). A month ago or so, I was looking for an implementation of a time-series classification/clustering method that uses shapelets, a widely researched topic within the time-series research community, and to my surprise, I found none <a name="found">1</a>. So I thought it will be great if I did an implementation and made it available to whoever interested. I was also motivated by the interesting idea behind [the LTS method](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2014e-kdd.pdf) method, and I imagined it would be fun to spend time to fully grasp the method and implement it.
+[Jump to usage](#usage) if you have no patience to hear my life story :). A month ago or so, I was looking for an implementation of a time-series classification/clustering method that uses shapelets, a widely researched topic within the time-series research community, and to my surprise, I found none <a name="found">1</a>. So I thought it will be great if I did an implementation and made it available to whoever interested. I was also motivated by the interesting idea behind [the LTS method](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2014e-kdd.pdf) method, and I imagined it would be fun to spend time to fully grasp the method and implement it.
 
 A shapelet is a time-series sub-sequence that is discriminative to the members of one (or more) class. LTS learns a time-series classifier (that uses a set of shaplets) with stochastic gradient descent. Refer to the [LTS](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2014e-kdd.pdf) paper for details.
 
