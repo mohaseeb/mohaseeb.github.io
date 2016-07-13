@@ -20,4 +20,4 @@ My bachelor was in electrical engineering, and I am currently concluding a maste
 <div class="hero"><img src="public/img/out.jpg "/></div>
 
 
-If not with my wife and two daughters, I spend my free time, running, learning, working in a hobby project, sometimes reading a book, and well, many times hopping around between internet sites. 
+If not with my wife and two daughters, I spend my free time, running, watching movies/series, learning, working in a hobby project and sometimes reading a book.
