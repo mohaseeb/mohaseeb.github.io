@@ -16,7 +16,7 @@ This implementation, [found here](https://github.com/mohaseeb/shaplets-python), 
 Note, the loss in my implementation is an updated version of the one in the paper, and that is to enable training a single network for all the classes in the dataset (rather than one network/class as I understood from the paper). The impact on performance caused by this deviation was not investigated. For details check the shapelets/network/cross_entropy_loss_layer.py in [the implementation](https://github.com/mohaseeb/shaplets-python).
 
 ## Usage ##
-See below. Also have a look at example.py in [the implementation](https://github.com/mohaseeb/shaplets-python). For a stable training, make sure all the timeseries in the dataset are [standardized](https://en.wikipedia.org/wiki/Feature_scaling#Standardization) (i.e. each has zero mean and unit variance). 
+See below. Also have a look at example.py in [the implementation](https://github.com/mohaseeb/shaplets-python). For a stable training, make sure all the time-series instances in the dataset are [standardized](https://en.wikipedia.org/wiki/Feature_scaling#Standardization) (i.e. each has zero mean and unit variance). 
 
 ```python
 from shapelets.classification import LtsShapeletClassifier
