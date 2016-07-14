@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New rental apartments alert system"
+title: "Automated hunting of rental apartments"
 date: 2016-06-19
 category: other
 tags: [web crawling]
