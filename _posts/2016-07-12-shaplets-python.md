@@ -3,7 +3,7 @@ layout: post
 title: "Python implementation of the Learning Time-series Shapelets method (LTS)"
 date: 2016-07-12
 category: machine learning
-tags: [time series, pattern recognition]
+tags: [time series, pattern recognition, shapelet]
 ---
 ![attributes_prediction]({{ site.baseurl }}/public/posts_imgs/lts.png)
 
@@ -11,7 +11,7 @@ tags: [time series, pattern recognition]
 
 A shapelet is a time-series sub-sequence that is discriminative to the members of one class (or more). LTS learns a time-series classifier (that uses a set of shaplets) with stochastic gradient descent. Refer to the [LTS](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2014e-kdd.pdf) paper for details.
 
-This implementation, [found here](https://github.com/mohaseeb/shaplets-python), views the model as a layered network (the shown diagram), where each layer implements a forward, a backward and parameters update method. This abstraction makes it easy to understand the method and implements it (specially when it gets hairy and one needs to debug the code). It also help if one decided to port the implementation to frameworks like Torch or Tensorflow. A bunch of unit-tests were also implemented for the forward and backward methods (so I can rest assured that the gradients are calculated correctly).
+This implementation, [found here](https://github.com/mohaseeb/shaplets-python), views the model as a layered network (the shown diagram), where each layer implements a forward, a backward and parameters update method. This abstraction makes it easy to understand the method and implement it (specially when it gets hairy and one needs to debug the code). It also help if one decided to port the implementation to frameworks like Torch or Tensorflow. A bunch of unit-tests were also implemented for the forward and backward methods (so I can rest assured that the gradients are calculated correctly).
 
 Note, the loss in my implementation is an updated version of the one in the paper, and that is to enable training a single network for all the classes in the dataset (rather than one network/class as I understood from the paper). The impact on performance caused by this deviation was not investigated. For details check the shapelets/network/cross_entropy_loss_layer.py in [the implementation](https://github.com/mohaseeb/shaplets-python).
 
