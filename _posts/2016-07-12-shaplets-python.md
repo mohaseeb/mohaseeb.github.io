@@ -7,23 +7,25 @@ tags: [time series, pattern recognition, shapelet]
 ---
 ![attributes_prediction]({{ site.baseurl }}/public/posts_imgs/lts.png)
 
-[Jump to usage](#usage) if you have no patience to hear my life story :). A month ago or so, I was looking for an implementation of a time-series classification/clustering method that uses shapelets, a widely researched topic within the time-series research community, and to my surprise, I found none <a name="found">1</a>. So I thought it will be great if I did an implementation and made it available to whoever interested. I was also motivated by the interesting idea behind [the LTS method](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2014e-kdd.pdf), and I imagined it would be fun to spend time to fully grasp the method and implement it.
+[Jump to usage](#usage) if you have no patience to hear my life story :)
+
+A month ago or so, I was looking for an implementation of a time-series classification/clustering method that uses shapelets, a widely researched topic within the time-series research community, and to my surprise, I found none <a name="found">1</a>. So I thought it will be great if I did an implementation and made it available to whoever interested. I was also motivated by the interesting idea behind [the LTS method](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2014e-kdd.pdf), and I imagined it would be fun to spend time to fully grasp the method and implement it.
 
 A shapelet is a time-series sub-sequence that is discriminative to the members of one class (or more). LTS learns a time-series classifier (that uses a set of shaplets) with stochastic gradient descent. Refer to the [LTS](http://www.ismll.uni-hildesheim.de/pub/pdfs/grabocka2014e-kdd.pdf) paper for details.
 
-This implementation, [found here](https://github.com/mohaseeb/shaplets-python), views the model as a layered network (the shown diagram), where each layer implements a forward, a backward and parameters update method. This abstraction makes it easy to understand the method and implement it (specially when it gets hairy and one needs to debug the code). It also help if one decided to port the implementation to frameworks like Torch or Tensorflow. A bunch of unit-tests were also implemented for the forward and backward methods (so I can rest assured that the gradients are calculated correctly).
+This implementation I did, [found here](https://github.com/mohaseeb/shaplets-python), views the model as a layered network (the shown diagram), where each layer implements a forward, a backward and parameters update method. This abstraction makes it easy to understand the method and implement it (specially when it gets hairy and one needs to debug the code). It also help if one decided to port the implementation to frameworks like Torch or Tensorflow. A bunch of unit-tests were also implemented for the forward and backward methods (so I can rest assured that the gradients are calculated correctly).
 
 Note, the loss in my implementation is an updated version of the one in the paper, and that is to enable training a single network for all the classes in the dataset (rather than one network/class as I understood from the paper). The impact on performance caused by this deviation was not investigated. For details check the shapelets/network/cross_entropy_loss_layer.py in [the implementation](https://github.com/mohaseeb/shaplets-python).
 
 ## Usage ##
-See below. Also have a look at example.py in [the implementation](https://github.com/mohaseeb/shaplets-python). For a stable training, make sure all the time-series instances in the dataset are [standardized](https://en.wikipedia.org/wiki/Feature_scaling#Standardization) (i.e. each has zero mean and unit variance). 
+See below. Also have a look at example.py in [the implementation](https://github.com/mohaseeb/shaplets-python). For a stable training, make sure all the time-series instances in the dataset are [standardized](https://en.wikipedia.org/wiki/Feature_scaling#Standardization) (i.e. each has zero mean and unit variance).
 
 ```python
 from shapelets.classification import LtsShapeletClassifier
 # create an LtsShapeletClassifier instance
 classifier = LtsShapeletClassifier(K=20, R=3, L_min=30, epocs=2, regularization_parameter=0.01,
                                        learning_rate=0.01, shapelet_initialization='segments_centroids')
-# train the classifier. train_data (a numpy matrix) shape is (# train samples X time-series length), train_label (a numpy matrix) is (# train samples X 1). 
+# train the classifier. train_data (a numpy matrix) shape is (# train samples X time-series length), train_label (a numpy matrix) is (# train samples X 1).
 classifier.fit(train_data, train_label, plot_loss=True)
 # evaluate on test data. test_data (a numpy matrix) shape is (# test samples X time-series length)
 prediction = classifier.predict(test_data)
