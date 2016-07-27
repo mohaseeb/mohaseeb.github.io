@@ -8,7 +8,7 @@ title: Home
 <!--<p>{{ site.hero.caption }}</p>-->
 <!--</div>-->
 
-### Welcome, I'm Mohamed Haseeb!
+### Welcome, I'm Mohamed Abdulaziz Ali Haseeb,
 
 I am an experienced software and systems engineer, currently working at Ericsson in Sweden. I've patience to solve problems and passion to explore
 and learn new things and I do often come with original ideas. I program in several languages and have experience on several machine learning techniques ([checkout my blog](blog/)). I am currently interested in building solutions that employ machine learning and AI
