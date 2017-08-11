@@ -10,13 +10,12 @@ title: Home
 
 ### Welcome, I'm Mohamed Abdulaziz Ali Haseeb,
 
-I am an experienced software and systems engineer, currently working at Ericsson in Sweden. I've patience to solve problems and passion to explore
-and learn new things and I do often come with original ideas. I program in several languages and have experience on several machine learning techniques ([checkout my blog](blog/)). I am currently interested in building solutions that employ machine learning and AI
-techniques.
+I currently work as a machine learning engineer at Watty. I am interested in automation and building solutions that employ machine learning and AI
+techniques([checkout my blog](blog/)). Before watty, I worked for Ericsson as software and systems engineer.
 
-My bachelor was in electrical engineering, and I am currently concluding a master in machine learning at KTH (Royal Institute of Technology) of Sweden.
+I hold a Master in machine learning from KTH (Royal Institute of Technology) Sweden, and a Bachelor degree in electrical engineering from university of Khartoum in Sudan.
 
 
 <div class="hero"><img src="public/img/out.jpg "/></div>
 
-If not with my wife and two daughters, I spend my free time, running, watching movies/series, learning, working in a hobby project and sometimes reading a book.
+If not with my wife and daughters, I spend my free time, running, watching movies/series, learning, working in a hobby project and sometimes reading a book.
