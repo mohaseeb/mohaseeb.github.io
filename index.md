@@ -21,9 +21,4 @@ I hold a Master in machine learning from KTH (Royal Institute of
 Technology) Sweden, and a Bachelor degree in electrical engineering
 from university of Khartoum in Sudan.
 
-
-<div class="hero"><img src="public/img/out.jpg "/></div>
-
-If not with my wife and daughters, I spend my free time, running,
-watching movies/series, learning, working in a hobby project and
-sometimes reading a book.
+If not with my wife and daughters, I spend my free time, running, watching movies/series, learning, working in a hobby project and sometimes reading a book.
