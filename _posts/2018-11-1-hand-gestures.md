@@ -5,7 +5,7 @@ date: 2018-11-1
 category: machine learning
 tags: [time series, LSTM, pattern recognition, Android]
 ---
-Our paper, (together with [Dr. Ramviyas Parasuraman](http://cobweb.cs.uga.edu/~ramviyas))
+Our paper (together with [Dr. Ramviyas Parasuraman](http://cobweb.cs.uga.edu/~ramviyas))
 got accepted for publication in IEEE Sensors Journal (2018). Subset of the 
 work reported was part of my master's thesis. A preprint can be found 
 [here](https://arxiv.org/abs/1707.08569), and the paper can be found 

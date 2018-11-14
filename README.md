@@ -1,5 +1,5 @@
 # Mohamed Haseeb
-My personal website https://mohaseeb.github.io.
+My personal website [mohaseeb.com](mohaseeb.com)
 
 A fork of https://github.com/codinfox/codinfox-lanyon.
 
