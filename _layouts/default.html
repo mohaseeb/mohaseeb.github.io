@@ -2,31 +2,60 @@
 <html lang="en-us">
 
   {% include head.html %}
+  <header class="bloghead">
+    <div class="authorheader">
+      <a href="/">
+      <img alt="My Avatar" src="/public/img/profile_s.jpg"/>
+      </a>
+      <div class="blogtitle">
+        <h2>{{ site.author.name }}</h2>
+        <h5> {{ site.author.description }} </h5>
+      </div>
+    </div>
+
+    <nav class="menu" role="nav">
+      <ul>
+
+        <li><a href="/">Home</a></li>
+
+        <li>|</li>
+        <li><a href="/blog">Blog</a></li>
+
+        <li>|</li>
+        <li>
+          <a target="_blank" href="{{ site.author.contact.linkedin }}">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li>|</li>
+        <li>
+          <a target="_blank" href="{{ site.author.contact.github }}">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li>|</li>
+        <li>
+          <a target="_blank" href="{{ site.author.contact.email }}">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
 
   <body>
 
-    {% include sidebar.html %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home" title="{{ site.title }}">
-              <img class="masthead-logo" src="{{ site.baseurl }}{{ site.logo }}"/>
-            </a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </div>
+
 
       <div class="container content">
         {{ content }}
       </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
       (function(document) {

@@ -2,14 +2,7 @@
 layout: default
 title: Home
 ---
-
-<!--<div class="hero">-->
-<!--<img src="{{ site.baseurl }}{{ site.hero.image }}" />-->
-<!--<p>{{ site.hero.caption }}</p>-->
-<!--</div>-->
-
-### Welcome, I'm Mohamed Abdulaziz Ali Haseeb,
-
+      
 I am interested in automation and building solutions that employ machine
 learning and AI techniques([checkout my blog](blog/)).
 

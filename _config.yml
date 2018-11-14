@@ -1,9 +1,9 @@
 # Site Info
-title: Mohamed Abdulaziz Ali Haseeb
-tagline: software and systems engineer
+title: Mohamed Haseeb
+tagline: Software and machine learning engineer
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 #baseurl: "/"
-url: https://mohaseeb.github.io
+url: http://mohaseeb.com
 logo: '/public/logo.png'
 
 # Site configurations
@@ -22,16 +22,15 @@ permalink: pretty
 
 version: 1.0.0
 
-# About/contact
+# About/cntact
 author:
   name: Mohamed Haseeb
-  description: A developer and a system engineer, intersted in machine learning and AI techniques.
+  description: Software and machine learning engineer, interested in applying machine learning techniques to build innovative solutions.
   gravatar: bf38fd50b8b475e2f2800c1fd6a0defb # md5 hash of your email address
   contact:
-    linkedin:  https://se.linkedin.com/in/mohamed-haseeb
+    linkedin:  https://linkedin.com/in/mohamed-haseeb
     github:    https://github.com/mohaseeb
-    # facebook:  <hide>
-    email:  mailto:mohamedaziz52@gmail.com
+    email:  mailto:m@mohaseeb.com
 
 # Navigation (2nd level links supported)
 nav:
