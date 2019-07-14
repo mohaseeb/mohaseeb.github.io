@@ -5,9 +5,9 @@ title: Home
 I am interested in automation and building solutions that employ machine
 learning and AI techniques.
 
-I currently work as a machine learning engineer at Watty, building
-Watty's machine learning based energy analytics product. Before
-Watty, I worked for Ericsson as software and systems engineer. 
+I currently work as a data scientist at Webstep where I work as a consultant 
+on client projects. Before that I worked as a machine learning engineer at Watty
+ building machine learning based energy analytics products and as software & systems engineer at Ericsson.
 
 I spend part of my free time building web and mobile apps using node, React, 
 React Native and Ionic.
